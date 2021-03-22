@@ -12,8 +12,8 @@ from airflow.operators.python import PythonOperator, PythonVirtualenvOperator
 
 from AlpacaTAQ import Alpaca
 
-API_KEY = "PKLLES9GI1LMTF45SWKZ"
-SECRET_KEY = "1rlWRjrT0qdHereRiVo3QD1zDb8yTjD0T35ZkMhL"
+API_KEY = <API KEY>
+SECRET_KEY = <SECRET KEY>
 
 
 def trades():
