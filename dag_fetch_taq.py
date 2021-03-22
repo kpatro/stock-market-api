@@ -86,5 +86,5 @@ task_trades = PythonOperator(
 )
 
 task_check_api >> task_trades
-task_check_api >> task_trades
-task_check_api >> task_trades
+task_check_api >> task_quotes
+task_check_api >> task_bars
