@@ -122,3 +122,4 @@ class Alpaca:
 
     def quotes(self):
         self._template(market="quotes")
+     
